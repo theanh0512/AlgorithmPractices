@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9c58629-0ee6-4748-a126-2e95c8cef274" name="Default" comment="shopping bags">
-      <change afterPath="$PROJECT_DIR$/src/array012/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/ArithmeticSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/ArmstrongNumber.java" afterDir="false" />
+    <list default="true" id="b9c58629-0ee6-4748-a126-2e95c8cef274" name="Default" comment="arithmetic series&#10;armstrong number">
+      <change afterPath="$PROJECT_DIR$/src/math/SumDigitPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractices/shiftzeros/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractices/shiftzeros/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractices/shoppingbags/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractices/shoppingbags/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shiftzeros/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/shiftzeros/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/shoppingbags/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" selection-end-line="60" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array012/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumDigitPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/math/SumDigitPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="43" selection-end-line="45" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -55,8 +50,8 @@
       <file leaf-file-name="ArmstrongNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/math/ArmstrongNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            <state relative-caret-position="391">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -91,6 +86,8 @@
         <option value="$PROJECT_DIR$/src/math/ArithmeticSeries.java" />
         <option value="$PROJECT_DIR$/src/math/ArmstrongNumber.java" />
         <option value="$PROJECT_DIR$/src/shiftzeros/Main.kt" />
+        <option value="$PROJECT_DIR$/src/math/SumDigitPallindrome.java" />
+        <option value="$PROJECT_DIR$/src/math/SumDigitPalindrome.java" />
       </list>
     </option>
   </component>
@@ -104,10 +101,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="873" />
-    <option name="y" value="247" />
-    <option name="width" value="1919" />
-    <option name="height" value="1032" />
+    <option name="x" value="3430" />
+    <option name="y" value="149" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArmstrongNumber">
+  <component name="RunManager" selected="Application.SumDigitPalindrome">
     <configuration name="ArithmeticSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.ArithmeticSeries" />
       <module name="AlgorithmPractices" />
@@ -200,6 +197,17 @@
     </configuration>
     <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.ArmstrongNumber" />
+      <module name="AlgorithmPractices" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SumDigitPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.SumDigitPalindrome" />
       <module name="AlgorithmPractices" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -286,9 +294,11 @@
       <item itemvalue="Kotlin.array012.Main" />
       <item itemvalue="Application.ArithmeticSeries" />
       <item itemvalue="Application.ArmstrongNumber" />
+      <item itemvalue="Application.SumDigitPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumDigitPalindrome" />
         <item itemvalue="Application.ArmstrongNumber" />
         <item itemvalue="Application.ArithmeticSeries" />
         <item itemvalue="Kotlin.array012.Main" />
@@ -312,7 +322,7 @@
       <workItem from="1534671323092" duration="1198000" />
       <workItem from="1535253506645" duration="615000" />
       <workItem from="1547304304788" duration="1235000" />
-      <workItem from="1550357594045" duration="3994000" />
+      <workItem from="1550357594045" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="shopping bags">
       <created>1531083290378</created>
@@ -321,14 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531083290378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arithmetic series&#10;armstrong number">
+      <created>1550415662214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550415662214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18955000" />
+    <option name="totallyTimeSpent" value="20474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3018" height="1231" extended-state="6" />
+    <frame x="3432" y="151" width="1691" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -342,11 +359,11 @@
       <window_info anchor="right" id="Kotlin Bytecode" weight="0.32978016" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291367" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45864663" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996669" weight="0.33003598" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983345" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4477612" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -371,7 +388,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shopping bags" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping bags" />
+    <MESSAGE value="arithmetic series&#10;armstrong number" />
+    <option name="LAST_COMMIT_MESSAGE" value="arithmetic series&#10;armstrong number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,10 +631,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/ArmstrongNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/shiftzeros/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        <state relative-caret-position="102">
+          <caret line="6" column="54" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shoppingbags/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array012/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -632,24 +664,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array012/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/math/ArmstrongNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="391">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shiftzeros/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/math/SumDigitPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="54" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shoppingbags/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="25" column="43" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
     </entry>
