@@ -4,8 +4,16 @@ internal object Main {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val A = arrayOf(0, -9, 0, 4, 0, 0, 5, 0, -1, 0)
-        shift(A)
+        val A = arrayOf(8, -9, 0, 4, 0, 0, 5, 0, -1)
+        var count = 0
+        A.forEachIndexed { index, item ->
+            if (item != 0) {
+                val temp = A[count]
+                A[count] = item
+                A[index] = temp
+                count++
+            }
+        }
         A.forEach { print(it) }
     }
 
